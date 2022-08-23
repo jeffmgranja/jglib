@@ -1,0 +1,21 @@
+Package: jgverse
+Type: Package
+Date: 2022-04-03
+Title: Jeff G. Functions in R.
+Version: 1.0.0
+Authors@R:
+    person("Jeffrey", "Granja", email = "jgranja.stanford@gmail.com", role = c("aut","cre"))
+Description: Jeff G. Functions in R.
+Roxygen: list(markdown = TRUE)
+License: GPL (>= 2)
+LinkingTo: Rcpp
+LazyData: TRUE
+RoxygenNote: 7.2.1
+Encoding: UTF-8
+Imports:
+    parallel,
+    jgplot2,
+Depends:
+Collate: 
+    'mclapply.R'
+    'global_defaults.R'
